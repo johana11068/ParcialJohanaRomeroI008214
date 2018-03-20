@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.aula7.parcialjohanaromeroi008214.MainActivity">
+    tools:context="com.example.aula7.parcialjohanaromeroi008214.MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-
         <include layout="@layout/cardview_puntuacion" />
-        <include layout="@layout/cardview_vista"/>
-
+        <include layout="@layout/cardview_vista" />
+        <include layout="@layout/cardview_Popularidad" />
     </LinearLayout>
 
+    <include layout="@layout/cardview_datos"/>
 
-</android.support.constraint.ConstraintLayout>
+
+</LinearLayout>
