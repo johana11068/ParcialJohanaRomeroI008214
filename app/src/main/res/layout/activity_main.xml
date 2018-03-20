@@ -20,5 +20,7 @@
 
     <include layout="@layout/cardview_datos"/>
 
+    <include layout="@layout/cardview_comentarios" />
+
 
 </LinearLayout>
